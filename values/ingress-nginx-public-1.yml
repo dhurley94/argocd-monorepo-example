@@ -1,0 +1,2 @@
+controller:
+  ingressClassName: ingress-nginx-public-0
