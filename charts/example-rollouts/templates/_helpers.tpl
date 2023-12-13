@@ -61,7 +61,6 @@ app.kubernetes.io/instance: {{ .Release.Name }}
 
 {{- define "example-rollouts.selectorLabels-preview" -}}
 app.kubernetes.io/name: "{{ include "example-rollouts.fullname" . }}-preview"
-app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
 
 {{/*
